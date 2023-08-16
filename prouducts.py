@@ -12,3 +12,6 @@ while True:
 	proudcts.append([name,price])
 
 print(proudcts)
+
+for p in proudcts:
+	print(p[0],'的價格是',p[1])
